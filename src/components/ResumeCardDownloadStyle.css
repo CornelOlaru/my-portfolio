@@ -1,0 +1,42 @@
+.resume-card-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.resume-card{
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+}
+
+.resume-card img{
+    width: 100%;
+}
+
+.card-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.resume-details p{
+    text-align: center;
+    padding-top: 0.5rem;
+    
+}
+.res-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+
+}
+@media screen and (max-width: 740px) {
+    .resume-card-container{
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 5rem;
+    }
+}
