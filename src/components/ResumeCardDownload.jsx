@@ -1,13 +1,13 @@
 
 import "./ResumeCardDownloadStyle.css";
-import img1 from "../assets/CVResume.png";
+import CVImage from "../assets/CO-CV.png";
 
 const ResumeCardDownload = () => {
   return (
     <div className="resume">
       <div className="resume-card-container">
         <div className="resume-card">
-          <img src={img1} alt="resume" />
+          <img  src={CVImage} alt="resume" />
           <h3 className="card-title">- Resume/CV -</h3>
           <div className="resume-details">
             <p>This is my CV</p>
@@ -20,7 +20,7 @@ const ResumeCardDownload = () => {
                 {" "}
                 <button className="btn">GitHub</button>
               </a>
-              <a href="https://drive.google.com/file/d/1Lf7KbZa89q2WsecGfAxZ3m_nAcoXZbXi/view?usp=sharing" target="_blank">
+              <a href="https://drive.google.com/file/d/1eA-K5Tt9viS8205zNt8Py9x4ZwWgdC9R/view?usp=sharing" target="_blank">
                 <button className="btn">View</button>
               </a>
             </div>

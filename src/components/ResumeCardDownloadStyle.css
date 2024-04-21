@@ -1,5 +1,5 @@
 .resume-card-container{
-    max-width: 1140px;
+    max-width: 400px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
