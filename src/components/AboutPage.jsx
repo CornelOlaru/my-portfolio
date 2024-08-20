@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import "./AboutPageStyle.css";
 import img1 from "../assets/[008729].jpg";

@@ -1,19 +1,109 @@
-label{
+/* Center the form on the page */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    /* min-height: 100vh; */
+    /* background-color: #f0f2f5; */
+  }
+  
+  /* Style the form */
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 450px ;
+    width: 100% !important;
+  }
+  
+  /* Style form groups */
+  .form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+  
+  /* Form control (input, textarea) styling */
+  .form-input {
+    width: 100%;
+    height: 40px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: transparent ;
+    border: 1px solid #999; /* Default border color when not focused */
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    outline: none ; /* Remove outline */
     color: #fff;
-    margin-bottom: 0.5rem;
-}
-form{
-   display: flex;
-   flex-direction: column;
-   padding: 4rem 1rem;
-   margin: auto;
-   max-width: 600px;
-}
-form input, form textarea{
+  }
+  
+  /* Label styling */
+  .form-label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    padding: 0 5px;
+    color: #999;
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  
+  /* Textarea label adjustment */
+  .textarea-label {
+    top: 18%;
+  }
+  .form-textarea{
+    height: auto;
+  }
+  /* Move label when the input is focused or has content */
+  .form-input:focus + .form-label, 
+  .form-input:valid + .form-label,
+  .form-input:not(:placeholder-shown) + .form-label {
+    top: 0px;
+    left: 15px;
+    font-size: 1rem;
+    color: #999;
+    outline: none ;
+    background-color: black;
+  }
+  
+  /* Change border color on focus */
+  .form-input:focus {
+    border-color: rgb(248, 217, 15); /* Focused border color */
+    outline: none ;
+  }
+  
+  /* Change label color on focus */
+  .form-input:focus + .form-label {
+    color: rgb(248, 217, 15);
+    outline: none ;
+  }
+  
+  /* Checkbox styling */
+  .form-check {
     margin-bottom: 1rem;
-    padding: 10px 18px;
-    font-size: 1.2rem;
-    background-color: rgba(255, 255, 255,0.1);
-    border-color: rgba(255, 255, 255,0.1);
-    color: #f4f4f4;
-}
+  }
+  
+  /* Submit button container */
+  .submit-container {
+    text-align: center;
+  }
+  
+  .form-check-label{
+    color: #fff;
+  }
+  /* Submit button styling */
+ .contact-btn{
+    
+    
+ }
+  

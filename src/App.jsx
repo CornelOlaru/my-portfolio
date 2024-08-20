@@ -6,6 +6,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Resume from "./routes/Resume";
 import Contact from "./routes/Contact";
+import Projects from "./routes/Projects";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Resume" element={<Resume />} />
+          <Route path="/Projects" element={<Projects />} />
         </Routes>
       </BrowserRouter>
     </div>
