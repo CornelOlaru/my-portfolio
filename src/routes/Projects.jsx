@@ -5,6 +5,7 @@ import ProjectsPage from "../components/ProjectsPage";
 import sweetDreams from "../assets/sweetdreams.webp";
 import cardioGuard from "../assets/cardioguard.webp";
 import artown from "../assets/logo-artown 1.jpg";
+import aromia from "../assets/Aromia.png";
 import { Col, Container, Row } from "react-bootstrap";
 
 import "../components/AboutPageStyle.css";
@@ -40,6 +41,14 @@ export default function Projects() {
               cardTitle="Artown Festival"
               cardText="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, dolor."
               cardLink="https://www.artown-festival.art/"
+            />
+          </Col>
+          <Col>
+            <ProjectsPage
+              image={aromia}
+              cardTitle="Aromia"
+              cardText="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, dolor."
+              cardLink="https://mern-frontend-ibm-project.vercel.app/"
             />
           </Col>
         </Row>
