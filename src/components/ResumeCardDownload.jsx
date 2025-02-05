@@ -20,7 +20,7 @@ const ResumeCardDownload = () => {
                 {" "}
                 <button className="btn">GitHub</button>
               </a>
-              <a href="https://drive.google.com/file/d/1VbDk8n9APe6nDbSMdrP-FjFZ399cNAoP/view?usp=sharing" target="_blank">
+              <a href="https://drive.google.com/file/d/1QzCjen0qn5VqzqwPmRDceg4Jss4OgjaG/view?usp=sharing" target="_blank">
                 <button className="btn">View</button>
               </a>
             </div>
